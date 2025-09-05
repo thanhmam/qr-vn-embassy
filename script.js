@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- QUAN TRỌNG ---
     // Lấy URL từ tab "Production URL" trong n8n của bạn và dán vào đây
-    const webhookUrl = 'URL_PRODUCTION_CUA_BAN'; 
+    const webhookUrl = 'https://n8n.thanhnam.com/webhook/qr-form'; 
     // Ví dụ: 'https://n8n.thanhnam.com/webhook/qr-form'
 
     form.addEventListener('submit', async (event) => {
